@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">chiffON</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="location_permission_granted">Location permission has been granted. RECO SDK can now work properly.</string>
+    <string name="location_permission_not_granted">Location permission for this application is denied. RECO SDK may not work properly.</string>
+    <string name="location_permission_rationale">Location permission is needed to monitor or range beacons.</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- clause -->
+    <string name="copyrights">CopyrightⓒchiffON All Rights Reserved</string>
+    <string name="rights">Copyrightⓒ</string>
+
+    <string name="clase">chiffON은 회원 여러분께서 서비스를 이요함에 있어 불미스러운 일을 방지하고 사전에 명확한 관계 정책을 수립하기 위해 아래와 같은 이용약관을 규정하고 있습니다"</string>
+    <string name="purpose">  본 약관은 chiffON 서비스를 제공하는 회사가 제공하는 서비스를 이용함에 있어 회사와 이용자의 권리 의무 및 책임사항을 규정함을 목적으로 합니다</string>
+    <string name="potency"> ① 본 약관은 서비스를 이용하고자 본 약관에 동의한 모든 회원에 대하여 그 효력을 발생합니다."\n"② 본 야관의 내용은 회원가입시 게재되거나 공지된 내용에 회원이 동의함으로써 그 효력이 발생합니다."\n"③ 회사는 약관이 변경되는 경우 변경된 약관의 내용과 시행일을 정하여 시행일로부터 최소 7일 전, 고객에게 불리하게 변경되거나 중요한 내용인 경우에는 최소 30일 전에 회사의 홈페이지 또는 전자메일 등을 통해 공지합니다."\n"④ 회원은 변경된 약관에 동의하지 않을 경우 회원탈퇴를 요청할 수 있으며 변경된 약관의 효력 발생일 이후 해지 요청을 하지 않을 경우 약관의 변경사항에 동의한 것으로 간주됩니다."\n"⑤ 본 약관은 chiffON 서비스 이용약관에 동의한 회원에 적용됩니다."\n"
+    </string>
+
+    <string name="rule">본 약관에 명시되지 아니한 사항에 대해서는 전자서명법 전자상거래 등에서의 소비자보호에 관한 법률 정보통신망 이용촉진 및 정보보호 등에 관합 법률(이하 "정보통신망법)의 규정을 따릅니다. 본 약관에 명시되지 않은 서비스에 대한 사항은 해당 서비스의 페이지의 공지사항에 따릅니다.</string>
+    <string name="term">본 약관에서 사용하는 주요한 용어의 정의는 다음과 같습니다."\n"① "서비스"란 회사가 재화, 용역, 정보를 이용자에게 제공하기 위하여 컴퓨터 등 정보통신 설비를 이용하여 재화, 용역을 거래할 수 있도록 설정한 가상의 영업장 또는 회사가 운영하는 웹사이트를 말하며, 아울러 서비스를 운영하는 사업자의 의미로도 사용합니다."\n"② "회원"이란 회사에 개인정보를 제공하여 회원등록을 한 자로서 해당 서비스를 계속적으로 이용할 수 있는 자를 의미합니다."\n"③ 아이디 : 회원의 식별과 회원의 서비스 이용을 위하여 회원이 선정하고 회사가 승인하는 문자나 숫자 혹은 그 조합을 말합니다."\n"④ 비콘번호 : 회원이 부여 받은 아이디와 일치된 고유의 비콘의 고유 값을 의미하며 회원 자신의 의류와 인식을 위해 부여된 숫자의 조합을 의미합니다.</string>
+
+</resources>

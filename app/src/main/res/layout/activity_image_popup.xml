@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#dddcdd">
+
+
+    <ImageView
+        android:id="@+id/img_popup"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"/>
+
+
+    <!-- name -->
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="50dp"
+        android:background="#8b8989" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text='name'
+        android:textStyle="bold"/>
+
+    <!-- brand -->
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="5dp"
+        android:background="#8b8989" />
+
+    <TextView
+        android:id="@+id/txtBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text='brand'/>
+
+    <!-- big_type -->
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="5dp"
+        android:background="#8b8989" />
+
+    <TextView
+        android:id="@+id/txtBigType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text='big type'/>
+
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="5dp"
+        android:background="#8b8989" />
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text='price'/>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="5dp"
+        android:background="#8b8989" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="47dp"
+            android:layout_height="30dp"
+            android:background="@drawable/toggle_selector"
+            android:textOff=""
+            android:textOn=""
+            android:clickable="false"
+            android:checked="false"
+            android:contextClickable="false" />
+
+
+        <ImageButton
+            android:id="@+id/btn_goShopping"
+            android:layout_width="240dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/img_button_shopping"
+            android:text="쇼핑하기" />
+
+    </LinearLayout>
+</LinearLayout>

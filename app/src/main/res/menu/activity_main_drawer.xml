@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_closet"
+            android:icon="@drawable/ic_menu_closet"
+            android:title="내 옷장" />
+        <item
+            android:id="@+id/nav_find"
+            android:icon="@drawable/ic_menu_find"
+            android:title="옷 찾기" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_menu_favorite"
+            android:title="관심목록" />
+        <item
+            android:id="@+id/nav_board"
+            android:icon="@drawable/ic_menu_others"
+            android:title="타인 옷장 구경" />
+
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_menu_ranking"
+            android:title="많이 찾은 순위" />
+    </group>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_preferences"
+                android:icon="@drawable/ic_menu_preferences"
+                android:title="환경설정" />
+        </menu>
+    </item>
+
+</menu>

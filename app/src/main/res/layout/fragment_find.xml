@@ -1,0 +1,99 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".find.FindFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="30dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="검색 전 항목을 선택하세요"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center">
+
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="0.5dp"
+            android:layout_weight="0"
+            android:background="#8b8989"
+            android:layout_marginTop="20dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_sex"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            >
+        </Spinner>
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="0.5dp"
+            android:background="#8b8989" />
+
+        <Spinner
+            android:id="@+id/spinner_bigType"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            >
+        </Spinner>
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="0.5dp"
+            android:background="#8b8989" />
+
+        <Spinner
+            android:id="@+id/spinner_smallType"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center">
+        </Spinner>
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="0.5dp"
+            android:background="#8b8989" />
+
+        <Spinner
+            android:id="@+id/spinner_color"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center">
+        </Spinner>
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="0.5dp"
+            android:background="#8b8989" />
+
+
+        <ImageButton
+            android:id="@+id/btnSearch"
+            android:layout_width="240dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img_button_search" />
+
+    </LinearLayout>
+</FrameLayout>
